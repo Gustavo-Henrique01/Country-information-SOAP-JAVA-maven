@@ -23,10 +23,14 @@ public class App {
         
         CountryInfoServiceSoapType  servico = serviceContry.getPort(CountryInfoServiceSoapType.class);
         
+       
         
         
-        
-            
+        System.out.println(servico.countryISOCode("Brazil"));
+        System.out.println(servico.capitalCity("BR"));
+        System.out.println(servico.countryIntPhoneCode("BR"));
+        System.out.println(servico.countryName("BR"));
+        System.out.println(servico.countryCurrency("Br"));
       
       
 
