@@ -74,10 +74,10 @@
 				</executions>
 				<configuration>
 					<wsdlUrls>
-						<wsdlUrl>https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl</wsdlUrl>
+						<wsdlUrl>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlUrl>
 					</wsdlUrls>
 					<keep>true</keep>
-					<packageName>com.fourcatsdev.correios.servico</packageName>
+					<packageName>br.edu.ifms.country_information.servico</packageName>
 					<sourceDestDir>src/main/java</sourceDestDir>
 				</configuration>
 			</plugin>
